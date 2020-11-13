@@ -1,2 +1,7 @@
-# documentation
-Matrix-ax related plans &amp; documentation
+# Documentation
+
+Matrix-ax service related plans &amp; documentation lives here. Matirx.ax is a free-to-use Matrix instant messenger service for Finnish users hosted as a community effort.
+
+Most of the docs shall be in the [Wiki](https://github.com/matrix-ax/documentation/wiki))
+
+Project website shall be written in Finnish due to the targeted user base, but technical plans and other materials may as well be written in English, when preferred.
