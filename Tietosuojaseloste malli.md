@@ -4,7 +4,7 @@
 Nimi: Matrix.ax yhteisö
 
 ## 2. Yhteystiedot rekisteriä koskevissa asioissa
-Nimi: Matrix.ax yhteisö
+Nimi: Matrix.ax yhteisö  
 Sähköposti: email@example.com
 
 ## 3. Rekisterin nimi
