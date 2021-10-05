@@ -1,14 +1,14 @@
 # Tietosuojaseloste
 
 ## 1. Rekisterin pitäjä
-Nimi: Matrix.ax yhteisö
+Nimi: Pikaviestin.fi yhteisö
 
 ## 2. Yhteystiedot rekisteriä koskevissa asioissa
-Nimi: Matrix.ax yhteisö  
-Sähköposti: email@example.com
+Nimi: Pikaviestin.fi ylläpito  
+Sähköposti: tietosuoja@pikaviestin.fi
 
 ## 3. Rekisterin nimi
-Matrix.ax Matrix-käyttäjärekisteri
+Pikaviestin.fi Matrix-käyttäjärekisteri
 
 ## 4. Henkilötietojen käsittelyn tarkoitus
 Henkilötietoja käsitellään Matrix-palvelun hoitamiseksi.
@@ -17,15 +17,23 @@ Henkilötietoja käsitellään Matrix-palvelun hoitamiseksi.
  - Nimi
  - Matrix-tunnus (MXID)
  - Sähköpostiosoite
- - Matrix-asiakasohjelman kulloinenkin käytössä oleva IP-numero
+ - Matrix-asiakasohjelman kulloinenkin käytössä oleva IP-osoite
  - Tunnuksen tila
  - Tunnukseen liittyvät päivämäärät
 
 ## 6. Säännönmukaiset tietolähteet
  - Käyttäjältä itseltään
+ - "SSO-provider" (Single Sign On -käyttäjähallinta), jonne käyttäjän rekisteröinnissä itsensä ilmoittamat välittömät tiedot tallentuvat
+ - Matrix-palvelin
 
 ## 7. Tietojen säännönmukaiset luovutukset
-Matrix-tunnus (MXID) on luonteeltaan julkinen tieto. Muutoin tietoja luovutetaan vain jäsenen omalla suostumuksella tai mikäli laki niin vaatii.
+Luonteeltaan julkisia tietoja joita käyttäjä Matrix-verkkoa käyttäessään tuottaa ovat:
+ - Matrix-tunnus (MXID), pakollinen, käyttäjän yksilöivä tunnus Matrix-verkossa, alkuosa käyttäjän itsensä asettama teksti, loppuosa `pikaviestin.fi`
+ - "avatar" ("omakuva"), jos käyttäjä sellaisen itselleen asettaa, ei pakollien
+ - "Real name" ("oma nimi"), jos käyttäjä sellaisen itselleen asettaa, ei pakollinen
+ - Salaamattomissa Matrix-huoneissa kirjoitettu viestintä
+
+Muutoin tietoja luovutetaan vain jäsenen omalla suostumuksella tai mikäli laki niin vaatii.
 
 ## 8. Tietojen luovutus EU:n tai ETA-alueen ulkopuolelle
 Tietoja ei luovuteta EU:n tai ETA-alueen ulkopuolelle.
