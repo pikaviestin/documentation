@@ -23,8 +23,8 @@ Henkilötietoja käsitellään Matrix-palvelun hoitamiseksi.
 
 ## 6. Säännönmukaiset tietolähteet
  - Käyttäjältä itseltään
- - "SSO-provider" (Single Sign On -käyttäjähallinta), jonne käyttäjän rekisteröinnissä itsensä ilmoittamat välittömät tiedot tallentuvat
- - Matrix-palvelin
+ - Pikaviestin.fi Autentik; Single Sign On -käyttäjähallinta, jonne käyttäjän rekisteröinnissä itsensä ilmoittamat välittömät tiedot tallentuvat
+ - Pikaviestin.fi Matrix-palvelin
 
 ## 7. Tietojen säännönmukaiset luovutukset
 Luonteeltaan julkisia tietoja joita käyttäjä Matrix-verkkoa käyttäessään tuottaa ovat:
@@ -32,6 +32,7 @@ Luonteeltaan julkisia tietoja joita käyttäjä Matrix-verkkoa käyttäessään 
  - "avatar" ("omakuva"), jos käyttäjä sellaisen itselleen asettaa, ei pakollien
  - "Real name" ("oma nimi"), jos käyttäjä sellaisen itselleen asettaa, ei pakollinen
  - Salaamattomissa Matrix-huoneissa kirjoitettu viestintä
+ - Salattujen Matrix-huoneiden salausmenetelmä on "End to End" ("Päästä Päähän") salaus, salattujen Matrix-huoneiden osalta ylläpidolla ei ole pääsyä käyttäjän viestintään.
 
 Muutoin tietoja luovutetaan vain jäsenen omalla suostumuksella tai mikäli laki niin vaatii.
 
