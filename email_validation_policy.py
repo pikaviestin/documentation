@@ -29,6 +29,15 @@ ALLOWED_DOMAINS = EDU_DOMAINS + RY_DOMAINS + ISP_DOMAINS + CITY_DOMAINS + OTHER_
 regular_exp = r'@(\S+)$'
 top_domain_regex = r'[(a-zA-Z)]*[.][(a-zA-Z)]*?$'
 
+
+def check_if_exists(email):
+  if ak_user_by(email=email):
+    ak_logger.info(f"Someone tried to register with the same email address as one user already exists, {email}")
+    ak_message("Tällä sähköpostiosoitteella on jo olemassa käyttäjä. Et voi luoda kuin yhden käyttäjän per sähköpostiosoite.")
+    return False
+  else:
+    return validate_email_domain(email)
+
 def validate_email_domain(email):
  try:
     email_domain = re.search(regular_exp, email).group(1)
@@ -39,12 +48,11 @@ def validate_email_domain(email):
         return True
     else:
         ak_logger.info(f"The denied email domain was: {top_level_domain}")
-        ak_message("Sähköpostiosoite ei ole valkoisella listalla, pääsy evätty. Ylläpitoon saa yhteyden osoitteessa <snip>")
+        ak_message("Sähköpostiosoite ei ole valkoisella listalla, pääsy evätty. Ota tarvittaessa yhteys yllapito@pikaviestin.fi mikäli koet tämän olevan virhe.")
         return False
  except Exception as e:
         ak_logger.failure(f"The email validation has occurred an exception during execution. The exception: {e}")
         ak_message("Sähköpostiosoitteen validoinnissa tapahtui odottamaton virhe.")
         return False
 
-
-return validate_email_domain(context['email'])
+return check_if_exists(context['email'])
