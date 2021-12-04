@@ -17,14 +17,17 @@ EDU_DOMAINS = SCHOOL_DOMAINS + ['prakticum.fi', 'aalto.fi', 'abo.fi', 'arcada.fi
                                 'taitajantie.fi', 'tamk.fi', 'teak.fi', 'tiedenorssi.fi', 'tpu.fi', 'tukkk.fi',
                                 'tuni.fi', '*.turkuamk.fi', 'tut.fi', 'tyk.fi', 'uef.fi', 'uku.fi', 'ulapland.fi',
                                 'uniarts.fi', 'uta.fi', 'utu.fi', 'uwasa.fi', 'vamk.fi', 'xamk.fi']
-RY_DOMAINS = ["kapsi.fi", "hacklab.fi", "nullroute.fi", 'iki.fi', "fixme.fi", "far.fi"]
+RY_DOMAINS = ["kapsi.fi", "hacklab.fi", "nullroute.fi", 'iki.fi', "fixme.fi", "far.fi", "modeemi.fi"]
 ISP_DOMAINS = ["*.inet.fi", "kolumbus.fi", "elisanet.fi", "saunalahti.fi", "netti.fi", "nic.fi", "netikka.fi", "sci.fi",
                "anvianet.fi", "kymp.net", "jippii.fi", "kotinet.com", "eunet.fi", "welho.com", "mailsuomi.com"]
 CITY_DOMAINS = ["hel.fi", "vaasa.fi", "tampere.fi", "*.ouka.fi", "turku.fi", "kaarina.fi", "kokkola.fi", "hyvinkaa.fi",
                 "jarvenpaa.fi", "toivakka.fi", "jyvaskyla.fi"]
-OTHER_DOMAINS = ["assembly.org", "winpos.fi"]
 
-ALLOWED_DOMAINS = EDU_DOMAINS + RY_DOMAINS + ISP_DOMAINS + CITY_DOMAINS + OTHER_DOMAINS
+PRESS_DOMAINS = ["skrolli.fi", "mikrobitti.fi", "almamedia.fi", "tivi.fi", "siivet.fi", "aamulehti.fi", "helsinginsanomat.fi", "almatalent.fi"]
+
+OTHER_DOMAINS = ["assembly.org", "winpos.fi", "tek.fi"]
+
+ALLOWED_DOMAINS = EDU_DOMAINS + RY_DOMAINS + ISP_DOMAINS + CITY_DOMAINS + PRESS_DOMAINS + OTHER_DOMAINS
 
 regular_exp = r'@(\S+)$'
 top_domain_regex = r'[(a-zA-Z)]*[.][(a-zA-Z)]*?$'
