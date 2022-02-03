@@ -11,7 +11,7 @@ EDU_DOMAINS = SCHOOL_DOMAINS + ['prakticum.fi', 'aalto.fi', 'abo.fi', 'arcada.fi
                                 'kktavastia.fi', 'koudata.fi', 'koulut.kaarina.fi', 'kuva.fi', 'kyamk.fi', 'lamk.fi',
                                 'lapinamk.fi', 'lappee.fi', 'laurea.fi', 'lut.fi', 'lyk.fi', 'mamk.fi', 'mayk.fi',
                                 'metropolia.fi', 'munkka.fi', 'oamk.fi', 'omnia.fi', 'opp.eduvantaa.fi',
-                                'oppilas.eduhat.fi', 'oppilas.hyvinkaa.fi', 'oulu.fi', 'puv.fi', 'ramk.fi', 'redu.fi',
+                                'oppilas.eduhat.fi', 'oppilas.hyvinkaa.fi', 'student.oulu.fi','oulu.fi', 'puv.fi', 'ramk.fi', 'redu.fi',
                                 'roiedu.fi', 'saimia.fi', 'salpaus.fi', 'samk.fi', 'sasky.fi', 'savonia.fi', 'scp.fi',
                                 'seamk.fi', 'shh.fi', 'siba.fi', 'student.lab.fi', 'student.vaasa.fi', 'syk.fi',
                                 'taitajantie.fi', 'tamk.fi', 'teak.fi', 'tiedenorssi.fi', 'tpu.fi', 'tukkk.fi',
