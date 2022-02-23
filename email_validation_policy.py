@@ -25,7 +25,7 @@ CITY_DOMAINS = ["hel.fi", "vaasa.fi", "tampere.fi", "*.ouka.fi", "turku.fi", "ka
 
 PRESS_DOMAINS = ["skrolli.fi", "mikrobitti.fi", "almamedia.fi", "tivi.fi", "siivet.fi", "aamulehti.fi", "helsinginsanomat.fi", "almatalent.fi"]
 
-OTHER_DOMAINS = ["assembly.org", "tek.fi", "ideavideo.fi"]
+OTHER_DOMAINS = ["assembly.org", "tek.fi", "ideavideo.fi", "gov.fi"]
 
 ALLOWED_DOMAINS = EDU_DOMAINS + RY_DOMAINS + ISP_DOMAINS + CITY_DOMAINS + PRESS_DOMAINS + OTHER_DOMAINS
 
