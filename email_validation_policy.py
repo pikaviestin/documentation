@@ -3,7 +3,7 @@ SCHOOL_DOMAINS = ["kotka.opit.fi"]
 EDU_DOMAINS = SCHOOL_DOMAINS + ['prakticum.fi', 'aalto.fi', 'abo.fi', 'arcada.fi', 'bc.fi', 'centria.fi', 'cou.fi',
                                 'diak.fi', 'edu.bc.fi', 'edu.espoo.fi', 'edu.hel.fi', 'edu.hyria.fi', 'edu.kokkola.fi',
                                 'edu.kotka.fi', 'edu.kuopio.fi', 'edu.lahti.fi', 'edu.redu.fi', 'edu.lohja.fi',
-                                'edu.loimaa.fi', 'edu.nivala.fi', 'edu.novia.fi', 'edu.raseko.fi', 'edu.riveria.fi',
+                                'edu.loimaa.fi', 'edu.nivala.fi', 'edu.nokiankaupunki.fi', 'edu.novia.fi', 'edu.raseko.fi', 'edu.riveria.fi',
                                 'edu.siikalatva.fi', 'edu.turku.fi', 'edu.tuusula.fi', 'edu.ylojarvi.fi', 'edu.keuda.fi', 'keuda.fi', 'eduespoo.fi',
                                 'eduouka.fi', 'eduvammalanlukio.fi', 'evtek.fi', 'gradia.fi', 'haaga-helia.fi',
                                 'hamk.fi', 'hanken.fi', 'helsinki.fi', 'hive.fi', 'hkkk.fi', 'hut.fi', 'jamk.fi',
@@ -17,13 +17,15 @@ EDU_DOMAINS = SCHOOL_DOMAINS + ['prakticum.fi', 'aalto.fi', 'abo.fi', 'arcada.fi
                                 'taitajantie.fi', 'tamk.fi', 'teak.fi', 'tiedenorssi.fi', 'tpu.fi', 'tukkk.fi',
                                 'tuni.fi', '*.turkuamk.fi', 'tut.fi', 'tyk.fi', 'uef.fi', 'uku.fi', 'ulapland.fi',
                                 'uniarts.fi', 'uta.fi', 'utu.fi', 'uwasa.fi', 'vamk.fi', 'xamk.fi', 'edu.tampere.fi', 'students.oamk.fi']
-RY_DOMAINS = ["kapsi.fi", "hacklab.fi", "nullroute.fi", 'iki.fi', "fixme.fi", "far.fi", "modeemi.fi", "jkry.org", "testausserveri.fi"]
+RY_DOMAINS = ["kapsi.fi", "hacklab.fi", "nullroute.fi", 'iki.fi', "fixme.fi", "far.fi", "modeemi.fi", "jkry.org", "testausserveri.fi",
+              "ellipsis.fi"]
 ISP_DOMAINS = ["*.inet.fi", "kolumbus.fi", "elisanet.fi", "saunalahti.fi", "netti.fi", "nic.fi", "netikka.fi", "sci.fi",
                "anvianet.fi", "kymp.net", "jippii.fi", "kotinet.com", "eunet.fi", "welho.com", "mailsuomi.com", "japo.fi", 
                "cuitunet.fi", "telemail.fi", "viesti.net", "meili.fi", "baari.net", "hyrynsalmi.net", "kajaani.net",
                "k-maa.net", "kuhmo.net", "paltamo.net", "pkarjala.net", "puolanka.net", "ristijarvi.net", "sotkamo.net",
                "suomussalmi.net", "tutka.net", "mail.tutka.net", "vaala.net", "vuokatti.net", "vuolijoki.net"]
 CITY_DOMAINS = ["hel.fi", "vaasa.fi", "tampere.fi", "*.ouka.fi", "turku.fi", "kaarina.fi", "kokkola.fi", "hyvinkaa.fi",
+                "nokiankaupunki.fi",
                 "jarvenpaa.fi", "toivakka.fi", "jyvaskyla.fi", "kuopio.fi"]
 
 PRESS_DOMAINS = ["skrolli.fi", "mikrobitti.fi", "almamedia.fi", "tivi.fi", "siivet.fi", "aamulehti.fi", "helsinginsanomat.fi", "almatalent.fi"]
