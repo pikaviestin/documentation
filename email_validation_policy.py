@@ -28,7 +28,7 @@ CITY_DOMAINS = ["hel.fi", "vaasa.fi", "tampere.fi", "*.ouka.fi", "turku.fi", "ka
                 "nokiankaupunki.fi",
                 "jarvenpaa.fi", "toivakka.fi", "jyvaskyla.fi", "kuopio.fi"]
 
-PRESS_DOMAINS = ["skrolli.fi", "mikrobitti.fi", "almamedia.fi", "tivi.fi", "siivet.fi", "aamulehti.fi", "helsinginsanomat.fi", "almatalent.fi"]
+PRESS_DOMAINS = ["skrolli.fi", "mikrobitti.fi", "almamedia.fi", "tivi.fi", "siivet.fi", "aamulehti.fi", "helsinginsanomat.fi", "almatalent.fi", "is.fi", "iltalehti.fi"]
 
 OTHER_DOMAINS = ["assembly.org", "tek.fi", "ideavideo.fi", "tux.fi", "gov.fi", "ohops.net", "somby.fi"]
 
