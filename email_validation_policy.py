@@ -30,7 +30,7 @@ CITY_DOMAINS = ["hel.fi", "vaasa.fi", "tampere.fi", "*.ouka.fi", "turku.fi", "ka
 
 PRESS_DOMAINS = ["skrolli.fi", "mikrobitti.fi", "almamedia.fi", "tivi.fi", "siivet.fi", "aamulehti.fi", "helsinginsanomat.fi", "almatalent.fi", "is.fi", "iltalehti.fi"]
 
-OTHER_DOMAINS = ["assembly.org", "tek.fi", "ideavideo.fi", "tux.fi", "gov.fi", "ohops.net", "somby.fi"]
+OTHER_DOMAINS = ["assembly.org", "tek.fi", "ideavideo.fi", "tux.fi", "gov.fi", "ohops.net", "somby.fi", "kela.fi"]
 
 ALLOWED_DOMAINS = EDU_DOMAINS + RY_DOMAINS + ISP_DOMAINS + CITY_DOMAINS + PRESS_DOMAINS + OTHER_DOMAINS
 
