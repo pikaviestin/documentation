@@ -63,4 +63,4 @@ def validate_email_domain(email):
         ak_message("Sähköpostiosoitteen validoinnissa tapahtui odottamaton virhe.")
         return False
 
-return check_if_exists(context['email'])
+return check_if_exists(context['prompt_data']['email'])
