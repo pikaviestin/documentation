@@ -16,7 +16,8 @@ EDU_DOMAINS = SCHOOL_DOMAINS + ['prakticum.fi', 'aalto.fi', 'abo.fi', 'arcada.fi
                                 'seamk.fi', 'shh.fi', 'siba.fi', 'student.lab.fi', 'student.vaasa.fi', 'syk.fi',
                                 'taitajantie.fi', 'tamk.fi', 'teak.fi', 'tiedenorssi.fi', 'tpu.fi', 'tukkk.fi',
                                 'tuni.fi', '*.turkuamk.fi', 'tut.fi', 'tyk.fi', 'uef.fi', 'uku.fi', 'ulapland.fi',
-                                'uniarts.fi', 'uta.fi', 'utu.fi', 'uwasa.fi', 'vamk.fi', 'xamk.fi', 'edu.tampere.fi', 'students.oamk.fi']
+                                'uniarts.fi', 'uta.fi', 'utu.fi', 'uwasa.fi', 'vamk.fi', 'xamk.fi', 'edu.tampere.fi', 'students.oamk.fi',
+                                'viikinnormaalikoulu.fi']
 RY_DOMAINS = ["kapsi.fi", "hacklab.fi", "nullroute.fi", 'iki.fi', "fixme.fi", "far.fi", "modeemi.fi", "jkry.org", "testausserveri.fi",
               "ellipsis.fi"]
 ISP_DOMAINS = ["*.inet.fi", "kolumbus.fi", "elisanet.fi", "saunalahti.fi", "netti.fi", "nic.fi", "netikka.fi", "sci.fi",
