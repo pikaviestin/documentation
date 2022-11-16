@@ -60,7 +60,7 @@ def validate_email_domain(email):
         ak_message("Sähköpostiosoite ei ole valkoisella listalla, pääsy evätty. Ota tarvittaessa yhteys yllapito@pikaviestin.fi mikäli koet tämän olevan virhe.")
         return False
  except Exception as e:
-        ak_logger.failure(f"The email validation has occurred an exception during execution. The exception: {e}")
+        ak_logger.error(f"The email validation has occurred an exception during execution. The exception: {e}")
         ak_message("Sähköpostiosoitteen validoinnissa tapahtui odottamaton virhe.")
         return False
 
