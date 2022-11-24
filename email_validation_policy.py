@@ -18,20 +18,41 @@ EDU_DOMAINS = SCHOOL_DOMAINS + ['prakticum.fi', 'aalto.fi', 'abo.fi', 'arcada.fi
                                 'tuni.fi', '*.turkuamk.fi', 'tut.fi', 'tyk.fi', 'uef.fi', 'uku.fi', 'ulapland.fi',
                                 'uniarts.fi', 'uta.fi', 'utu.fi', 'uwasa.fi', 'vamk.fi', 'xamk.fi', 'edu.tampere.fi', 'students.oamk.fi',
                                 'viikinnormaalikoulu.fi']
+LEADER_DOMAINS = [ "aisapari.net", "aktion.fi",
+                   "emory.fi",
+                   "jetina.fi", "joensuunseudunleader.fi", "jokivarsi.fi", "joutsentenreitti.fi", "jyvasriihi.fi",
+                   "kainuuleader.fi", "kalakukkory.fi", "kantriry.fi", "karhuseutu.fi", "karkileader.fi", "keskipisteleader.fi",
+                   "koillismaanleader.fi", "kuudestaan.net",
+                   "leaderlansisaimaa.fi", "leadersuupohja.fi", "liiveri.net", "linnaseutu.fi", "lounaplussa.fi",
+                   "mansikkary.fi",
+                   "nousevarannikkoseutu.fi",
+                   "oulujarvileader.fi", "oulunseudunleader.fi", "outokaira.fi",
+                   "paijanne-leader.fi", "perapohjola.fi", "pirityiset.fi", "pirkanhelmi.fi", "pll.fi", "pohjois-kymenkasvu.fi",
+                   "pokory.fi", "pomovast.fi", "pyhajarviseutu.fi",
+                   "rajupusuleader.fi", "ravakka.fi", "rieskaleader.fi",
+                   "sameboat.fi", "sepra.fi", "silmu.info",
+                   "tunturileader.fi",
+                   "varsinhyva.fi", "veejjakaja.fi", "vesuri-ryhma.fi",
+                   "yhyres.fi", "ykkosakseli.fi", "ylasavonveturi.fi"]
+VILLAGE_DOMAINS = [ "suomenkylat.fi", "hameenkylat.fi", "kainuunnuotta.net", "kaustisenseutukunta.fi", "keskisuomenkylat.fi", "kostiry.fi",
+                 "kylat.fi", "kymenlaaksonkylat.fi", "lappilaisetkylat.fi", "phkylat.fi", "pirkankylat.fi", "pohjois-savonkylat.fi", "ppkylat.fi",
+                 "uudenmaankylat.fi", "vskylat.fi",
+                 "pinsioseura.fi"]
 RY_DOMAINS = ["kapsi.fi", "hacklab.fi", "nullroute.fi", 'iki.fi', "fixme.fi", "far.fi", "modeemi.fi", "jkry.org", "testausserveri.fi",
-              "ellipsis.fi"]
+              "ellipsis.fi"] + LEADER_DOMAINS + VILLAGE_DOMAINS
 ISP_DOMAINS = ["*.inet.fi", "kolumbus.fi", "elisanet.fi", "saunalahti.fi", "netti.fi", "nic.fi", "netikka.fi", "sci.fi",
                "anvianet.fi", "kymp.net", "jippii.fi", "kotinet.com", "eunet.fi", "welho.com", "mailsuomi.com", "japo.fi", 
                "cuitunet.fi", "telemail.fi", "viesti.net", "meili.fi", "baari.net", "hyrynsalmi.net", "kajaani.net",
-               "k-maa.net", "kuhmo.net", "paltamo.net", "pkarjala.net", "puolanka.net", "ristijarvi.net", "sotkamo.net",
+               "k-maa.net", "kuhmo.net", "paltamo.net", "phnet.fi", "pkarjala.net", "puolanka.net", "ristijarvi.net", "sotkamo.net",
                "suomussalmi.net", "tutka.net", "mail.tutka.net", "vaala.net", "vuokatti.net", "vuolijoki.net"]
 CITY_DOMAINS = ["hel.fi", "vaasa.fi", "tampere.fi", "*.ouka.fi", "turku.fi", "kaarina.fi", "kokkola.fi", "hyvinkaa.fi",
-                "nokiankaupunki.fi",
+                "hankasalmi.fi","kankaanpaa.fi","lieksa.fi","nokiankaupunki.fi","saarijarvi.fi","savonlinna.fi","sodankyla.fi",
                 "jarvenpaa.fi", "toivakka.fi", "jyvaskyla.fi", "kuopio.fi"]
 
 PRESS_DOMAINS = ["skrolli.fi", "mikrobitti.fi", "almamedia.fi", "tivi.fi", "siivet.fi", "aamulehti.fi", "helsinginsanomat.fi", "almatalent.fi", "is.fi", "iltalehti.fi"]
 
-OTHER_DOMAINS = ["assembly.org", "tek.fi", "ideavideo.fi", "tux.fi", "gov.fi", "ohops.net", "somby.fi", "kela.fi"]
+OTHER_DOMAINS = ["assembly.org", "tek.fi", "ideavideo.fi", "tux.fi", "maaseutu.fi",
+                 "gov.fi", "ohops.net", "somby.fi", "kela.fi"]
 
 ALLOWED_DOMAINS = EDU_DOMAINS + RY_DOMAINS + ISP_DOMAINS + CITY_DOMAINS + PRESS_DOMAINS + OTHER_DOMAINS
 
