@@ -51,8 +51,22 @@ CITY_DOMAINS = ["hel.fi", "vaasa.fi", "tampere.fi", "*.ouka.fi", "turku.fi", "ka
 
 PRESS_DOMAINS = ["skrolli.fi", "mikrobitti.fi", "almamedia.fi", "tivi.fi", "siivet.fi", "aamulehti.fi", "helsinginsanomat.fi", "almatalent.fi", "is.fi", "iltalehti.fi"]
 
-OTHER_DOMAINS = ["assembly.org", "tek.fi", "ideavideo.fi", "tux.fi", "maaseutu.fi",
-                 "gov.fi", "ohops.net", "somby.fi", "kela.fi"]
+LABOR_UNION_DOMAINS = ["akava.fi", "tek.fi", "mal-liitto.fi", "agronomiliitto.fi", "akavanerityisalat.fi", "taja.fi", "ayr.fi", "akiliitot.fi",
+                       "dtl.fi", "diff.fi", "yty.fi", "ilry.fi", "knt.fi", "ktk-ry.fi", "kuntoutusala.fi", "loimu.fi", "mma.fi",
+                       "oaj.fi", "professoriliitto.fi", "paallystoliitto.fi", "talentia.fi", "saval.fi", "safa.fi", "ekonomit.fi",
+                       "sell.fi", "farmasialiitto.fi", "suomenfysioterapeutit.fi", "hammaslaakariliitto.fi", "juristiliitto.fi",
+                       "laakariliitto.fi", "psyli.fi", "puheterapeuttiliitto.fi", "terveydenhoitajaliitto.fi", "toimintaterapeuttiliitto.fi",
+                       "tieteentekijat.fi", "tradenomi.fi", "upseeriliitto.fi", "yka.fi", "tyoterveyshoitajat.fi", "sak.fi", "aliupseeriliitto.fi",
+                       "jhl.fi", "pam.fi", "rtu.fi", "sjry.fi", "sllpilots.fi", "muusikkojenliitto.fi", "teme.fi", "teollisuusliitto.fi", "iau.fi",
+                       "esimiesliitto.com", "akt.fi", "smu.fi", "paperiliitto.fi", "pau.fi", "rakennusliitto.fi", "raury.fi", "selry.fi",
+                       "sahkoliitto.fi", "tulliliitto.fi", "vankilavirkailija.fi", "sttk.fi", "jytyliitto.fi", "kthliitto.fi", 
+                       "proliitto.fi", "kirkonalat.fi", "mvl.fi", "luva.fi", "metsaasiantuntijat.fi", "ria.fi", "konepaallystoliitto.fi",
+                       "superliitto.fi", "seacommand.fi", "spal.fi", "tehy.fi", "erto.fi"]
+
+SCIENTIFIC_INSTITUTION_DOMAINS = ["labore.fi", "ptt.fi", "etla.fi"]
+
+OTHER_DOMAINS = ["assembly.org", "ideavideo.fi", "tux.fi", "maaseutu.fi",
+                 "gov.fi", "ohops.net", "somby.fi", "kela.fi"] + LABOR_UNION_DOMAINS + SCIENTIFIC_INSTITUTION_DOMAINS
 
 ALLOWED_DOMAINS = EDU_DOMAINS + RY_DOMAINS + ISP_DOMAINS + CITY_DOMAINS + PRESS_DOMAINS + OTHER_DOMAINS
 
