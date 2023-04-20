@@ -39,7 +39,7 @@ VILLAGE_DOMAINS = [ "suomenkylat.fi", "hameenkylat.fi", "kainuunnuotta.net", "ka
                  "uudenmaankylat.fi", "vskylat.fi",
                  "pinsioseura.fi"]
 RY_DOMAINS = ["kapsi.fi", "hacklab.fi", "nullroute.fi", 'iki.fi', "fixme.fi", "far.fi", "modeemi.fi", "jkry.org", "testausserveri.fi",
-              "ellipsis.fi"] + LEADER_DOMAINS + VILLAGE_DOMAINS
+              "ellipsis.fi", "holatampere.fi"] + LEADER_DOMAINS + VILLAGE_DOMAINS
 ISP_DOMAINS = ["*.inet.fi", "kolumbus.fi", "elisanet.fi", "saunalahti.fi", "netti.fi", "nic.fi", "netikka.fi", "sci.fi",
                "anvianet.fi", "kymp.net", "jippii.fi", "kotinet.com", "eunet.fi", "welho.com", "mailsuomi.com", "japo.fi", 
                "cuitunet.fi", "telemail.fi", "viesti.net", "meili.fi", "baari.net", "hyrynsalmi.net", "kajaani.net",
@@ -63,7 +63,7 @@ LABOR_UNION_DOMAINS = ["akava.fi", "tek.fi", "mal-liitto.fi", "agronomiliitto.fi
                        "proliitto.fi", "kirkonalat.fi", "mvl.fi", "luva.fi", "metsaasiantuntijat.fi", "ria.fi", "konepaallystoliitto.fi",
                        "superliitto.fi", "seacommand.fi", "spal.fi", "tehy.fi", "erto.fi"]
 
-SCIENTIFIC_INSTITUTION_DOMAINS = ["labore.fi", "ptt.fi", "etla.fi"]
+SCIENTIFIC_INSTITUTION_DOMAINS = ["labore.fi", "ptt.fi", "etla.fi", "csc.fi"]
 
 OTHER_DOMAINS = ["assembly.org", "ideavideo.fi", "tux.fi", "maaseutu.fi",
                  "gov.fi", "ohops.net", "somby.fi", "kela.fi"] + LABOR_UNION_DOMAINS + SCIENTIFIC_INSTITUTION_DOMAINS
