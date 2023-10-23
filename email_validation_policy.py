@@ -65,7 +65,7 @@ LABOR_UNION_DOMAINS = ["akava.fi", "tek.fi", "mal-liitto.fi", "agronomiliitto.fi
 
 SCIENTIFIC_INSTITUTION_DOMAINS = ["labore.fi", "ptt.fi", "etla.fi", "csc.fi"]
 
-OTHER_DOMAINS = ["assembly.org", "ideavideo.fi", "tux.fi", "maaseutu.fi",
+OTHER_DOMAINS = ["assembly.org", "tek.fi", "ideavideo.fi", "tux.fi", "maaseutu.fi",
                  "gov.fi", "ohops.net", "somby.fi", "kela.fi"] + LABOR_UNION_DOMAINS + SCIENTIFIC_INSTITUTION_DOMAINS
 
 ALLOWED_DOMAINS = EDU_DOMAINS + RY_DOMAINS + ISP_DOMAINS + CITY_DOMAINS + PRESS_DOMAINS + OTHER_DOMAINS
@@ -92,7 +92,7 @@ def validate_email_domain(email):
         return True
     else:
         ak_logger.info(f"The denied email domain was: {top_level_domain}")
-        ak_message("Sähköpostiosoite ei ole valkoisella listalla, pääsy evätty. Ota tarvittaessa yhteys yllapito@pikaviestin.fi mikäli koet tämän olevan virhe.")
+        ak_message("Sähköpostiosoite ei ole sallittujen listalla, pääsy evätty. Ota tarvittaessa yhteys yllapito@pikaviestin.fi mikäli koet tämän olevan virhe.")
         return False
  except Exception as e:
         ak_logger.error(f"The email validation has occurred an exception during execution. The exception: {e}")
