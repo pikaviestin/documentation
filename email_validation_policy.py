@@ -17,7 +17,7 @@ EDU_DOMAINS = SCHOOL_DOMAINS + ['prakticum.fi', 'aalto.fi', 'abo.fi', 'arcada.fi
                                 'taitajantie.fi', 'tamk.fi', 'teak.fi', 'tiedenorssi.fi', 'tpu.fi', 'tukkk.fi',
                                 'tuni.fi', '*.turkuamk.fi', 'tut.fi', 'tyk.fi', 'uef.fi', 'uku.fi', 'ulapland.fi',
                                 'uniarts.fi', 'uta.fi', 'utu.fi', 'uwasa.fi', 'vamk.fi', 'xamk.fi', 'edu.tampere.fi', 'students.oamk.fi',
-                                'viikinnormaalikoulu.fi']
+                                'viikinnormaalikoulu.fi', 'edu.taitotalo.fi', 'taitotalo.fi']
 LEADER_DOMAINS = [ "aisapari.net", "aktion.fi",
                    "emory.fi",
                    "jetina.fi", "joensuunseudunleader.fi", "jokivarsi.fi", "joutsentenreitti.fi", "jyvasriihi.fi",
