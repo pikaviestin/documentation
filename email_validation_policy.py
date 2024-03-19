@@ -41,7 +41,7 @@ VILLAGE_DOMAINS = [ "suomenkylat.fi", "hameenkylat.fi", "kainuunnuotta.net", "ka
 RY_DOMAINS = ["kapsi.fi", "hacklab.fi", "nullroute.fi", 'iki.fi', "fixme.fi", "far.fi", "modeemi.fi", "jkry.org", "testausserveri.fi",
               "ellipsis.fi", "holatampere.fi"] + LEADER_DOMAINS + VILLAGE_DOMAINS
 ISP_DOMAINS = ["*.inet.fi", "kolumbus.fi", "elisanet.fi", "saunalahti.fi", "netti.fi", "nic.fi", "netikka.fi", "sci.fi",
-               "anvianet.fi", "kymp.net", "jippii.fi", "kotinet.com", "eunet.fi", "welho.com", "mailsuomi.com", "japo.fi", 
+               "anvianet.fi", "kymp.net", "jippii.fi", "kotinet.com", "eunet.fi", "welho.com", "mailsuomi.com", "japo.fi",
                "cuitunet.fi", "telemail.fi", "viesti.net", "meili.fi", "baari.net", "hyrynsalmi.net", "kajaani.net",
                "k-maa.net", "kuhmo.net", "paltamo.net", "phnet.fi", "pkarjala.net", "puolanka.net", "ristijarvi.net", "sotkamo.net",
                "suomussalmi.net", "tutka.net", "mail.tutka.net", "vaala.net", "vuokatti.net", "vuolijoki.net"]
@@ -59,7 +59,7 @@ LABOR_UNION_DOMAINS = ["akava.fi", "tek.fi", "mal-liitto.fi", "agronomiliitto.fi
                        "tieteentekijat.fi", "tradenomi.fi", "upseeriliitto.fi", "yka.fi", "tyoterveyshoitajat.fi", "sak.fi", "aliupseeriliitto.fi",
                        "jhl.fi", "pam.fi", "rtu.fi", "sjry.fi", "sllpilots.fi", "muusikkojenliitto.fi", "teme.fi", "teollisuusliitto.fi", "iau.fi",
                        "esimiesliitto.com", "akt.fi", "smu.fi", "paperiliitto.fi", "pau.fi", "rakennusliitto.fi", "raury.fi", "selry.fi",
-                       "sahkoliitto.fi", "tulliliitto.fi", "vankilavirkailija.fi", "sttk.fi", "jytyliitto.fi", "kthliitto.fi", 
+                       "sahkoliitto.fi", "tulliliitto.fi", "vankilavirkailija.fi", "sttk.fi", "jytyliitto.fi", "kthliitto.fi",
                        "proliitto.fi", "kirkonalat.fi", "mvl.fi", "luva.fi", "metsaasiantuntijat.fi", "ria.fi", "konepaallystoliitto.fi",
                        "superliitto.fi", "seacommand.fi", "spal.fi", "tehy.fi", "erto.fi"]
 
