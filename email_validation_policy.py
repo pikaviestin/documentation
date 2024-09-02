@@ -1,22 +1,26 @@
 import re
-SCHOOL_DOMAINS = ["kotka.opit.fi"]
+
+# Primary school / Grades 1-9
+SCHOOL_DOMAINS = ['kotka.opit.fi', 'edu.kuopio.fi', 'edu.lahti.fi', 'edu.redu.fi', 'edu.lohja.fi',
+                    'edu.loimaa.fi', 'edu.nivala.fi', 'edu.nokiankaupunki.fi', 'edu.novia.fi', 'edu.raseko.fi', 'edu.riveria.fi',
+                    'edu.siikalatva.fi', 'edu.turku.fi', 'edu.tuusula.fi', 'edu.ylojarvi.fi','edu.espoo.fi', 'edu.hel.fi', 'edu.kokkola.fi',
+                    'edu.savonia.fi',
+                    'edu.tampere.fi','edu.kotka.fi','eduouka.fi', 'eduvammalanlukio.fi','oppilas.eduhat.fi', 'oppilas.hyvinkaa.fi']
+# Higher Education / Lukio / University
 EDU_DOMAINS = SCHOOL_DOMAINS + ['prakticum.fi', 'aalto.fi', 'abo.fi', 'arcada.fi', 'bc.fi', 'centria.fi', 'cou.fi',
-                                'diak.fi', 'edu.bc.fi', 'edu.espoo.fi', 'edu.hel.fi', 'edu.hyria.fi', 'edu.kokkola.fi',
-                                'edu.kotka.fi', 'edu.kuopio.fi', 'edu.lahti.fi', 'edu.redu.fi', 'edu.lohja.fi',
-                                'edu.loimaa.fi', 'edu.nivala.fi', 'edu.nokiankaupunki.fi', 'edu.novia.fi', 'edu.raseko.fi', 'edu.riveria.fi',
-                                'edu.siikalatva.fi', 'edu.turku.fi', 'edu.tuusula.fi', 'edu.ylojarvi.fi', 'edu.keuda.fi', 'keuda.fi', 'eduespoo.fi',
-                                'eduouka.fi', 'eduvammalanlukio.fi', 'evtek.fi', 'gradia.fi', 'haaga-helia.fi',
+                                'diak.fi', 'edu.bc.fi', 'edu.hyria.fi','edu.keuda.fi', 'keuda.fi', 'eduespoo.fi',
+                                'evtek.fi', 'gradia.fi', 'haaga-helia.fi',
                                 'hamk.fi', 'hanken.fi', 'helsinki.fi', 'hive.fi', 'hkkk.fi', 'hut.fi', 'jamk.fi',
                                 'jedu.fi', 'joensuu.fi', 'student.jyu.fi', 'jyu.fi', 'kamk.fi', 'karelia.fi', 'kauniaistenlukio.fi',
                                 'kktavastia.fi', 'koudata.fi', 'koulut.kaarina.fi', 'kuva.fi', 'kyamk.fi', 'lamk.fi',
                                 'lapinamk.fi', 'lappee.fi', 'laurea.fi', 'lut.fi', 'lyk.fi', 'mamk.fi', 'mayk.fi',
                                 'metropolia.fi', 'munkka.fi', 'oamk.fi', 'omnia.fi', 'opp.eduvantaa.fi',
-                                'oppilas.eduhat.fi', 'oppilas.hyvinkaa.fi', 'student.oulu.fi', 'oulu.fi', 'puv.fi', 'ramk.fi', 'redu.fi',
-                                'roiedu.fi', 'saimia.fi', 'salpaus.fi', 'samk.fi', 'sasky.fi', 'edu.savonia.fi','savonia.fi', 'scp.fi',
+                                'student.oulu.fi', 'oulu.fi', 'puv.fi', 'ramk.fi', 'redu.fi',
+                                'roiedu.fi', 'saimia.fi', 'salpaus.fi', 'samk.fi', 'sasky.fi','savonia.fi', 'scp.fi',
                                 'seamk.fi', 'shh.fi', 'siba.fi', 'student.lab.fi', 'student.vaasa.fi', 'syk.fi',
                                 'taitajantie.fi', 'tamk.fi', 'teak.fi', 'tiedenorssi.fi', 'tpu.fi', 'tukkk.fi',
                                 'tuni.fi', '*.turkuamk.fi', 'tut.fi', 'tyk.fi', 'uef.fi', 'uku.fi', 'ulapland.fi',
-                                'uniarts.fi', 'uta.fi', 'utu.fi', 'uwasa.fi', 'vamk.fi', 'xamk.fi', 'edu.tampere.fi', 'students.oamk.fi',
+                                'uniarts.fi', 'uta.fi', 'utu.fi', 'uwasa.fi', 'vamk.fi', 'xamk.fi', 'students.oamk.fi',
                                 'viikinnormaalikoulu.fi', 'edu.taitotalo.fi', 'taitotalo.fi', 'edu.livia.fi', 'livia.fi']
 LEADER_DOMAINS = [ "aisapari.net", "aktion.fi",
                    "emory.fi",
