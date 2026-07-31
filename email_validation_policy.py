@@ -39,7 +39,7 @@ VILLAGE_DOMAINS = [ "suomenkylat.fi", "hameenkylat.fi", "kainuunnuotta.net", "ka
                  "uudenmaankylat.fi", "vskylat.fi",
                  "pinsioseura.fi"]
 RY_DOMAINS = ["kapsi.fi", "hacklab.fi", "nullroute.fi", 'iki.fi', "fixme.fi", "far.fi", "modeemi.fi", "jkry.org", "testausserveri.fi",
-              "ellipsis.fi", "holatampere.fi"] + LEADER_DOMAINS + VILLAGE_DOMAINS
+              "ellipsis.fi", "holatampere.fi", "fediversuomi.fi"] + LEADER_DOMAINS + VILLAGE_DOMAINS
 ISP_DOMAINS = ["*.inet.fi", "kolumbus.fi", "elisanet.fi", "saunalahti.fi", "netti.fi", "nic.fi", "netikka.fi", "sci.fi",
                "anvianet.fi", "kymp.net", "jippii.fi", "kotinet.com", "eunet.fi", "welho.com", "mailsuomi.com", "japo.fi",
                "cuitunet.fi", "telemail.fi", "viesti.net", "meili.fi", "baari.net", "hyrynsalmi.net", "kajaani.net",
